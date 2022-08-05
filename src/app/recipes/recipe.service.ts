@@ -12,7 +12,7 @@ export class RecipeService {
       new Ingredient('Meat', 1),
       new Ingredient('Apple', 2)
     ]),
-    new Recipe('AA Test Recipe', 'This is simply aa test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg',[
+    new Recipe('AA Test Recipe', 'This is simply aa test', 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Food_picture_by_logan.jpg',[
       new Ingredient('Rice', 2),
       new Ingredient('Fish', 2)
     ])
@@ -24,6 +24,10 @@ export class RecipeService {
 
  getRecipes(){
   return this.recipes.slice();
+ }
+
+ getRecipe(index:number){
+  return this.recipes[index];
  }
 
  addIngredientsToShoppingList(ingredients:Ingredient[]){
