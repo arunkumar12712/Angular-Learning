@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
-=======
-input.ng-invalid.ng-touched, textarea.ng-invalid {
->>>>>>> 26f3884d8e5d3a0016021604bd825299ea504d63
+.input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
   border: 1px solid red;
 }

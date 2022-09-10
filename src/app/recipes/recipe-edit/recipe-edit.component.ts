@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Component, OnInit, Query } from '@angular/core';
-=======
-import { Component, OnInit } from '@angular/core';
->>>>>>> 26f3884d8e5d3a0016021604bd825299ea504d63
 import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Ingredient } from 'src/app/shared/Ingredient.model';
